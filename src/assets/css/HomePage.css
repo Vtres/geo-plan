@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-.containerr {
+.wrapper_services {
   height: 80vh;
-  display: flex;
+  /* display: flex; */
+  padding: 5%;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: #00573b52;
 }
+
+.containerr_style {
+  font-style: #111213;
+}
 .containerr p {
-  font-size: 3rem;
-  padding: 0.5rem;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  text-align: center;
-  overflow: hidden;
+  /* font-size: 3rem; */
+  /* padding: 0.5rem;
+  /* font-weight: bold; */
+  display: block;
+  letter-spacing: 0.1rem; 
+  /* text-align: center; */
+  /* overflow: hidden; */
 }
 .containerr p span.typed-text {
   font-weight: normal;

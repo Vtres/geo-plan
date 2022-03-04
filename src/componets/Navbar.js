@@ -5,7 +5,7 @@ function NavbarComponent() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
-        <Navbar.Brand href="#home"><img className='navbar_img' src={require('../assets/image/logo.png')} /></Navbar.Brand>
+        <Navbar.Brand href="/"><img className='navbar_img' src={require('../assets/image/logo.png')} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
